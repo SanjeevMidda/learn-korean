@@ -165,6 +165,6 @@ header {
   align-items: center;
 }
 
-.vowels {
+.vowels, h5 {
   width: 100%;
 }
