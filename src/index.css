@@ -4,6 +4,7 @@
   font-weight: 300;
   transition: all 1s;
   user-select: none;
+  border: 1px solid black;
 }
 
 .App {
@@ -15,6 +16,8 @@
   width: 100dvw;
   overflow-x: hidden;
   overflow-y: hidden;
+  flex-direction: column;
+  background-color: blue;
 }
 
 header {
@@ -127,45 +130,27 @@ h3:hover {
   }
 
   h5 {
-    font-size: 1em;
+    font-size: 3em;
   }
   h1 {
     font-size: 60px;
   }
 
   .mainContainer {
-    width: 80%;
+    width: 100%;
   }
 
   footer {
     width: 90%;
   }
-
-  .divPosition{
-    width: 100%;
-
 }
 
-header {
-  display: flex;
-  min-width: 42%;
-  gap: 20px;
-  border-radius: 10px;
-  background-color: rgb(228, 228, 228);
-  position: fixed;
-  top: 30px;
-  justify-content: center;
-  align-items: center;
-}
-}
-.appContainer {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
 
-.vowels, h5, h1 {
+
+.vowels,
+h5,
+h1,
+.divPosition {
   width: 100%;
   text-align: center;
 }
