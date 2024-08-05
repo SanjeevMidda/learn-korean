@@ -164,3 +164,7 @@ header {
   justify-content: center;
   align-items: center;
 }
+
+.vowels {
+  width: 100%;
+}
