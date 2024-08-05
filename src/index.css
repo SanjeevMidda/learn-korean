@@ -157,7 +157,7 @@ header {
   justify-content: center;
   align-items: center;
 }
-
+}
 .appContainer {
   display: flex;
   flex-direction: column;
