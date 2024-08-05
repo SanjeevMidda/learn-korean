@@ -110,7 +110,7 @@ h3:hover {
   header {
     /* flex-direction: column; */
     width: fit-content;
-    gap: 0px;
+    gap: 10px;
     padding: 10px;
   }
 
